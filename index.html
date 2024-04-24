@@ -59,15 +59,16 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/anatomyz.loader.js";
       var config = {
-        dataUrl: buildUrl + "/anatomyz.data.br",
-        frameworkUrl: buildUrl + "/anatomyz.framework.js.br",
-        codeUrl: buildUrl + "/anatomyz.wasm.br",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "anatomyz",
-        productName: "data",
-        productVersion: "1.0",
-        showBanner: unityShowBanner,
+          dataUrl: buildUrl + "/anatomyz.data",
+          frameworkUrl: buildUrl + "/anatomyz.framework.js",
+          codeUrl: buildUrl + "/anatomyz.wasm",
+          streamingAssetsUrl: "StreamingAssets",
+          companyName: "anatomyz",
+          productName: "data",
+          productVersion: "1.0",
+          showBanner: unityShowBanner,
       };
+
 
       // By default Unity keeps WebGL canvas render target size matched with
       // the DOM size of the canvas element (scaled by window.devicePixelRatio)
